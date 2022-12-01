@@ -3,7 +3,7 @@
 This repository accompanies [*Developing Web Components with Svelte*](https://www.link.springer.com/book/10.1007/978-1-4842-9039-2) by Alex Libby (Apress, 2022).
 
 [comment]: #cover
-![Cover image](978-1-4842-9038-5.jpg)
+![Cover image](978-1-4842-9038-5.png)
 
 Download the files as a zip using the green button, or clone the repository to your machine using Git.
 
