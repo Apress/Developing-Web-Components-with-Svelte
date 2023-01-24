@@ -1,0 +1,75 @@
+import Avatar from '../Avatar/Avatar.svelte';
+import AvatarDocs from './AvatarDocs.mdx';
+import { Meta, Story } from '@storybook/addon-docs';
+
+<Meta
+	title="Cobalt UI Library/New Components/Avatar"
+	component={Avatar}
+	parameters={{ page: null }}
+/>
+
+export const Template = (args) => ({
+  Component: Avatar,
+  props: args,
+});
+
+<Story
+	name="Default"
+	args={{		
+		status: "available",
+		statusSize: "small",
+    src: "/avatar.png"
+	}}
+	parameters={{
+		docs: {
+			page: AvatarDocs
+		}
+	}}>
+	{Template.bind({})}
+</Story>
+
+
+<Story
+	name="Busy"
+	args={{		
+		status: "danger",
+		statusSize: "small",		
+    src: "/avatar.png"
+	}}
+	parameters={{
+		docs: {
+			page: AvatarDocs
+		}
+	}}>
+	{Template.bind({})}
+</Story>
+
+<Story
+	name="Unavailable"
+	args={{		
+		status: "unavailable",
+		statusSize: "medium",
+    src: "/avatar.png"
+	}}
+	parameters={{
+		docs: {
+			page: AvatarDocs
+		}
+	}}>
+	{Template.bind({})}
+</Story>
+
+<Story
+	name="Away"
+	args={{		
+		status: "away",
+		statusSize: "medium",
+    src: "/avatar.png"
+	}}
+	parameters={{
+		docs: {
+			page: AvatarDocs
+		}
+	}}>
+	{Template.bind({})}
+</Story>

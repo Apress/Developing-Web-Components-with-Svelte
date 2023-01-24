@@ -1,0 +1,86 @@
+$transition-base: all .2s ease-in-out !default;
+$avatar-width:  2rem !default;
+
+@mixin transition($transition...) {
+  @if length($transition) == 0 {
+    $transition: $transition-base;
+  }
+
+  @if length($transition) > 1 {
+    @each $value in $transition {
+      @if $value == null or $value == none {
+        @warn "The keyword 'none' or 'null' must be used as a single argument.";
+      }
+    }
+  }
+
+  @if $enable-transitions {
+    @if nth($transition, 1) != null {
+      transition: $transition;
+    }
+
+    @if $enable-reduced-motion and nth($transition, 1) != null and nth($transition, 1) != none {
+      @media (prefers-reduced-motion: reduce) {
+        transition: none;
+      }
+    }
+  }
+}
+
+@mixin avatar($width) {
+  width: $width;
+  height: $width;
+  font-size: $width * .4;
+
+  .avatar-status {
+    width: divide($width, 3.75);
+    height: divide($width, 3.75);
+  }
+}
+
+
+.avatar {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  border-radius: 50rem;
+    
+  @include transition($avatar-transition);
+  @include avatar($avatar-width);
+}
+
+.avatar-img {
+  width: 100%;
+  height: auto;
+  border-radius: 50rem;
+}
+
+.avatar-status {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  border: 1px solid #ffffff;
+  border-radius: 50rem;
+}
+
+@each $width, $value in $avatar-widths {
+  .avatar-#{$width} {
+    @include avatar($value);
+  }
+}
+
+.avatars-stack {
+  display: flex;
+
+  .avatar {
+    @include ltr-rtl("margin-right", - ($avatar-width * .4));
+  }
+
+  @each $width, $value in $avatar-widths {
+    .avatar-#{$width} {
+      @include ltr-rtl("margin-right", - ($value * .4));
+    }
+  }
+}

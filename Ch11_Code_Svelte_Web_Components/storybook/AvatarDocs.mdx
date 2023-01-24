@@ -1,0 +1,60 @@
+import { ArgsTable, Canvas, Meta, Story } from '@storybook/addon-docs';
+import Avatar from "../Avatar/Avatar.svelte";
+
+<Meta title="Cobalt UI Library/Notification Components/Avatar" component={Avatar} />
+
+# Avatar
+
+Avatar is the primary component. It has two possible states.
+
+- [Default](#default)
+- [Busy](#busy)
+- [Unavailable](#unavailable)
+- [Away](#away)
+
+<a id="default" />
+
+## Default
+
+This is the initial version of the Avatar component.
+
+<Canvas>
+  <Story id="cobalt-ui-library-new-components-avatar--default-story" />
+</Canvas>
+
+<a id="busy" />
+
+## Busy
+
+This variant displays the Avatar component styled with a red status.
+
+<Canvas>
+  <Story id="cobalt-ui-library-new-components-avatar--busy" />
+</Canvas>
+
+<a id="unavailable" />
+
+## Unavailable
+
+This variant displays the Avatar component with a white status indicator.
+
+<Canvas>
+  <Story id="cobalt-ui-library-new-components-avatar--unavailable" />
+</Canvas>
+
+<a id="away" />
+
+## Away
+
+This variant displays the Avatar component styled with a yellow status.
+
+<Canvas>
+  <Story id="cobalt-ui-library-new-components-avatar--busy" />
+</Canvas>
+
+
+## Properties of component
+
+Below is a list of arguments available for this component:
+
+<ArgsTable of={Avatar} />
