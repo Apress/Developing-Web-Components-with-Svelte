@@ -1,0 +1,32 @@
+:root {
+  --cobalt-color: #19247c;
+  --cobalt-lighten-color: #9393FF;  
+}
+
+.cobalt {
+  display: flex;
+  flex-direction: row;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="text"] {
+  width: 200px;
+  border-radius: 0.275rem;
+  border-color: var(--cobalt-color);
+  height: 30px;  
+  outline: none;
+}
+
+input[type="email"] {
+  width: 200px;
+  border-radius: 0.275rem;
+  border-color: var(--cobalt-color);
+  height: 30px;
+  outline: none;
+}
+
+label {
+  padding-right: 10px;
+  display: flex;
+  align-self: center;
+}
