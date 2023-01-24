@@ -1,0 +1,37 @@
+import { ArgsTable, Canvas, Meta, Story } from '@storybook/addon-docs';
+import Breadcrumbs from "../Breadcrumbs/Breadcrumbs.svelte";
+
+<Meta title="Cobalt UI Library/Navigation Components/Breadcrumbs" component={Breadcrumbs} />
+
+# Breadcrumbs
+
+Breadcrumbs is the primary component. It has two possible states.
+
+- [Default](#default)
+- [Custom Image](#customimage)
+
+<a id="default" />
+
+## Default
+
+This is the default version of the Breadcrumbs component.
+
+<Canvas>
+  <Story id="cobalt-ui-library-navigation-components-breadcrumbs--default-story" />
+</Canvas>
+
+<a id="customimage" />
+
+## Custom Image
+
+This variant disables the Breadcrumbs component.
+
+<Canvas>
+  <Story id="cobalt-ui-library-navigation-components-breadcrumbs--custom-image" />
+</Canvas>
+
+## Properties of component
+
+Below is a list of arguments available for this component:
+
+<ArgsTable of={Breadcrumbs} />

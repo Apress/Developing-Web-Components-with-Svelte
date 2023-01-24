@@ -1,0 +1,44 @@
+import Tooltip from "../Tooltip/Tooltip.svelte";
+import TooltipDocs from "./TooltipDocs.mdx";
+import { Meta, Story } from '@storybook/addon-docs';
+
+<Meta
+	title="Cobalt UI Library/Notification Components/Tooltip"
+	component={Tooltip}
+	parameters={{ page: null }}
+/>
+
+export const Template = (args) => ({
+  Component: Tooltip,
+  props: args,
+});
+
+<Story
+	name="Default"
+	args={{
+		tip: '<p>This is an informational tooltip - to learn more <a href="/tutorial">click here</a></p>',
+		showHTML: "false",
+		timeout: "400",
+		label: "more info",
+	}}
+	parameters={{
+		docs: {
+			page: TooltipDocs,
+		},
+	}}
+/>
+
+<Story
+	name="Show HTML"
+	args={{
+    tip: '<p>This is an informational tooltip - <a href="/tutorial">learn more</a></p>',
+		showHTML: "true",
+		timeout: "400",
+		label: "more info",
+	}}
+	parameters={{
+		docs: {
+			page: TooltipDocs,
+		},
+	}}
+/>

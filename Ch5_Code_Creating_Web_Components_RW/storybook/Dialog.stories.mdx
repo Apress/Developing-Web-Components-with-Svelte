@@ -1,0 +1,25 @@
+import Dialog from "../Dialog/Dialog.svelte";
+import DialogDocs from "./DialogDocs.mdx";
+import { Meta, Story } from '@storybook/addon-docs';
+
+<Meta 
+  title="Cobalt UI Library/Notification Components/Dialog"
+  component={Dialog}
+  parameters={{page: null}}
+/>
+
+export const Template = (args) => ({
+  Component: Dialog,
+  props: args,
+});
+
+<Story name="Default" 
+  args={{ 
+    showDialog: "false",
+  }}
+  parameters={{
+    docs: {
+      page: DialogDocs
+    },
+	}}
+/>

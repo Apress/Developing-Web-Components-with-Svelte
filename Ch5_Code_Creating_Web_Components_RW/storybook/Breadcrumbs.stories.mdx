@@ -1,0 +1,46 @@
+import Breadcrumbs from "../Breadcrumbs/Breadcrumbs.svelte";
+import BreadcrumbsDocs from "./BreadcrumbsDocs.mdx";
+import { Meta, Story } from '@storybook/addon-docs';
+
+<Meta
+  title="Cobalt UI Library/Navigation Components/Breadcrumbs"
+  component={Breadcrumbs}
+  parameters={{page: null}}  
+/>
+
+export const Template = (args) => ({
+  Component: Breadcrumbs,
+  props: args,
+});
+
+<Story name="Default" 
+  args={{ 
+    image: false,
+    breadcrumbItems: [
+      { href: "/", text: "Dashboard" },
+      { href: "/aerial", text: "Aerial photography" },
+      { href: "/drones/DJI", text: "DJI" },
+    ],
+  }}
+  parameters={{
+    docs: {
+      page: BreadcrumbsDocs
+    },
+	}}
+/>
+
+<Story name="Custom Image" 
+  args={{ 
+    image: true,
+    breadcrumbItems: [
+      { href: "/", text: "Dashboard" },
+      { href: "/aerial", text: "Aerial photography" },
+      { href: "/drones/DJI", text: "DJI" },
+    ],
+  }}
+  parameters={{
+    docs: {
+      page: BreadcrumbsDocs
+    },
+	}}
+/>
