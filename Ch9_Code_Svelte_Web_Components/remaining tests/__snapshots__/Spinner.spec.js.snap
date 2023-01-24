@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Spinner get a snapshot of component 1`] = `
+{
+  "component": Spinner {
+    "$$": {
+      "after_update": [],
+      "before_update": [],
+      "bound": {},
+      "callbacks": {},
+      "context": Map {},
+      "ctx": [
+        "#19247c",
+        "0.75s",
+        "40",
+        "circle",
+        [Function],
+      ],
+      "dirty": [
+        -1,
+      ],
+      "fragment": {
+        "c": [Function],
+        "d": [Function],
+        "i": [Function],
+        "l": [Function],
+        "m": [Function],
+        "o": [Function],
+        "p": [Function],
+      },
+      "not_equal": [Function],
+      "on_destroy": [
+        [Function],
+      ],
+      "on_disconnect": [],
+      "on_mount": [],
+      "props": {
+        "color": 0,
+        "duration": 1,
+        "size": 2,
+        "variant": 3,
+      },
+      "root": <div>
+        <div
+          class="cobalt svelte-1wtf3bv"
+        >
+          <div>
+            <div
+              class="circle svelte-1wtf3bv"
+              style="--size: 40px; --color: #19247c; --duration: 0.75s;"
+            />
+          </div>
+           
+        </div>
+      </div>,
+      "skip_bound": false,
+      "update": [Function],
+    },
+    "$$set": [Function],
+    "$capture_state": [Function],
+    "$inject_state": [Function],
+  },
+  "container": <body>
+    <div>
+      <div
+        class="cobalt svelte-1wtf3bv"
+      >
+        <div>
+          <div
+            class="circle svelte-1wtf3bv"
+            style="--size: 40px; --color: #19247c; --duration: 0.75s;"
+          />
+        </div>
+         
+      </div>
+    </div>
+  </body>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

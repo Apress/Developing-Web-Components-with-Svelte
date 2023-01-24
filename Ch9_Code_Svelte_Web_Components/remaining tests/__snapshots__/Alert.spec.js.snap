@@ -1,0 +1,242 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Alert get a snapshot of component 1`] = `
+{
+  "component": Alert {
+    "$$": {
+      "after_update": [],
+      "before_update": [],
+      "bound": {},
+      "callbacks": {},
+      "context": Map {},
+      "ctx": [
+        true,
+        "false",
+        "info",
+        "Simple Info",
+        "An info description",
+        true,
+        "alert alert-info fade-in",
+        [Function],
+        "true",
+      ],
+      "dirty": [
+        -1,
+      ],
+      "fragment": {
+        "c": [Function],
+        "d": [Function],
+        "i": [Function],
+        "l": [Function],
+        "m": [Function],
+        "o": [Function],
+        "p": [Function],
+      },
+      "not_equal": [Function],
+      "on_destroy": [
+        [Function],
+      ],
+      "on_disconnect": [],
+      "on_mount": [],
+      "props": {
+        "close": 1,
+        "description": 4,
+        "icon": 8,
+        "show": 0,
+        "title": 3,
+        "type": 2,
+      },
+      "root": <div>
+        <dialog
+          class="alert alert-info fade-in svelte-p9d6qo"
+          open=""
+          role="alert"
+        >
+          <div
+            class="icon svelte-p9d6qo"
+          >
+            <svg
+              height="24px"
+              viewBox="0 0 512 512"
+              width="24px"
+            >
+              <path
+                d="M248 64C146.39 64 64 146.39 64 248s82.39 184 184 184 184-82.39 184-184S349.61 64 248 64z"
+                fill="none"
+                stroke="currentColor"
+                stroke-miterlimit="10"
+                stroke-width="32"
+              />
+              <path
+                d="M220 220h32v116"
+                fill="none"
+                stroke="#ffffff"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="32"
+              />
+              
+      
+              <path
+                d="M208 340h88"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-miterlimit="10"
+                stroke-width="32"
+              />
+              <path
+                d="M248 130a26 26 0 1026 26 26 26 0 00-26-26z"
+                fill="#ffffff"
+              />
+            </svg>
+          </div>
+           
+          <div
+            class="message svelte-p9d6qo"
+          >
+            <strong>
+              Simple Info
+            </strong>
+             
+            An info description
+          </div>
+           
+          <div>
+            <button
+              class="svelte-p9d6qo"
+            >
+              ✖
+            </button>
+          </div>
+        </dialog>
+        
+      </div>,
+      "skip_bound": false,
+      "update": [Function],
+    },
+    "$$set": [Function],
+    "$capture_state": [Function],
+    "$inject_state": [Function],
+  },
+  "container": <body>
+    <div>
+      <dialog
+        class="alert alert-info fade-in svelte-p9d6qo"
+        open=""
+        role="alert"
+      >
+        <div
+          class="icon svelte-p9d6qo"
+        >
+          <svg
+            height="24px"
+            viewBox="0 0 512 512"
+            width="24px"
+          >
+            <path
+              d="M248 64C146.39 64 64 146.39 64 248s82.39 184 184 184 184-82.39 184-184S349.61 64 248 64z"
+              fill="none"
+              stroke="currentColor"
+              stroke-miterlimit="10"
+              stroke-width="32"
+            />
+            <path
+              d="M220 220h32v116"
+              fill="none"
+              stroke="#ffffff"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="32"
+            />
+            
+      
+            <path
+              d="M208 340h88"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-miterlimit="10"
+              stroke-width="32"
+            />
+            <path
+              d="M248 130a26 26 0 1026 26 26 26 0 00-26-26z"
+              fill="#ffffff"
+            />
+          </svg>
+        </div>
+         
+        <div
+          class="message svelte-p9d6qo"
+        >
+          <strong>
+            Simple Info
+          </strong>
+           
+          An info description
+        </div>
+         
+        <div>
+          <button
+            class="svelte-p9d6qo"
+          >
+            ✖
+          </button>
+        </div>
+      </dialog>
+      
+    </div>
+  </body>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

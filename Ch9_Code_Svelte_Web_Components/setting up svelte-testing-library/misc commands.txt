@@ -1,0 +1,3 @@
+npm install @babel/core @babel/preset-env jest babel-jest svelte-jester jest-environment-jsdom -D
+
+npm install @testing-library/svelte --D

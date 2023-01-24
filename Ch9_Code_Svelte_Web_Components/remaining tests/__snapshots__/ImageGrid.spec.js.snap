@@ -1,0 +1,289 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for ImageGrid get a snapshot of component 1`] = `
+{
+  "component": Table {
+    "$$": {
+      "after_update": [],
+      "before_update": [],
+      "bound": {},
+      "callbacks": {},
+      "context": Map {},
+      "ctx": [
+        "1",
+        "4",
+        "12",
+        "none",
+        "false",
+      ],
+      "dirty": [
+        -1,
+      ],
+      "fragment": {
+        "c": [Function],
+        "d": [Function],
+        "i": [Function],
+        "l": [Function],
+        "m": [Function],
+        "o": [Function],
+        "p": [Function],
+      },
+      "not_equal": [Function],
+      "on_destroy": [
+        [Function],
+      ],
+      "on_disconnect": [],
+      "on_mount": [],
+      "props": {
+        "border": 3,
+        "columnCount": 0,
+        "itemCount": 2,
+        "placeholderImages": 4,
+        "rowCount": 1,
+      },
+      "root": <div>
+        <div
+          class="svelte-1qstdq7"
+          style="grid-template-rows: repeat(4, 1fr); grid-template-columns: repeat(1, auto);"
+        >
+          <div
+            class="cell svelte-1d0j6iu"
+          >
+            <div
+              class="cellSize svelte-1d0j6iu"
+            />
+          </div>
+          <div
+            class="cell svelte-1d0j6iu"
+          >
+            <div
+              class="cellSize svelte-1d0j6iu"
+            />
+          </div>
+          <div
+            class="cell svelte-1d0j6iu"
+          >
+            <div
+              class="cellSize svelte-1d0j6iu"
+            />
+          </div>
+          <div
+            class="cell svelte-1d0j6iu"
+          >
+            <div
+              class="cellSize svelte-1d0j6iu"
+            />
+          </div>
+          <div
+            class="cell svelte-1d0j6iu"
+          >
+            <div
+              class="cellSize svelte-1d0j6iu"
+            />
+          </div>
+          <div
+            class="cell svelte-1d0j6iu"
+          >
+            <div
+              class="cellSize svelte-1d0j6iu"
+            />
+          </div>
+          <div
+            class="cell svelte-1d0j6iu"
+          >
+            <div
+              class="cellSize svelte-1d0j6iu"
+            />
+          </div>
+          <div
+            class="cell svelte-1d0j6iu"
+          >
+            <div
+              class="cellSize svelte-1d0j6iu"
+            />
+          </div>
+          <div
+            class="cell svelte-1d0j6iu"
+          >
+            <div
+              class="cellSize svelte-1d0j6iu"
+            />
+          </div>
+          <div
+            class="cell svelte-1d0j6iu"
+          >
+            <div
+              class="cellSize svelte-1d0j6iu"
+            />
+          </div>
+          <div
+            class="cell svelte-1d0j6iu"
+          >
+            <div
+              class="cellSize svelte-1d0j6iu"
+            />
+          </div>
+          <div
+            class="cell svelte-1d0j6iu"
+          >
+            <div
+              class="cellSize svelte-1d0j6iu"
+            />
+          </div>
+          
+        </div>
+      </div>,
+      "skip_bound": false,
+      "update": [Function],
+    },
+    "$$set": [Function],
+    "$capture_state": [Function],
+    "$inject_state": [Function],
+  },
+  "container": <body>
+    <div>
+      <div
+        class="svelte-1qstdq7"
+        style="grid-template-rows: repeat(4, 1fr); grid-template-columns: repeat(1, auto);"
+      >
+        <div
+          class="cell svelte-1d0j6iu"
+        >
+          <div
+            class="cellSize svelte-1d0j6iu"
+          />
+        </div>
+        <div
+          class="cell svelte-1d0j6iu"
+        >
+          <div
+            class="cellSize svelte-1d0j6iu"
+          />
+        </div>
+        <div
+          class="cell svelte-1d0j6iu"
+        >
+          <div
+            class="cellSize svelte-1d0j6iu"
+          />
+        </div>
+        <div
+          class="cell svelte-1d0j6iu"
+        >
+          <div
+            class="cellSize svelte-1d0j6iu"
+          />
+        </div>
+        <div
+          class="cell svelte-1d0j6iu"
+        >
+          <div
+            class="cellSize svelte-1d0j6iu"
+          />
+        </div>
+        <div
+          class="cell svelte-1d0j6iu"
+        >
+          <div
+            class="cellSize svelte-1d0j6iu"
+          />
+        </div>
+        <div
+          class="cell svelte-1d0j6iu"
+        >
+          <div
+            class="cellSize svelte-1d0j6iu"
+          />
+        </div>
+        <div
+          class="cell svelte-1d0j6iu"
+        >
+          <div
+            class="cellSize svelte-1d0j6iu"
+          />
+        </div>
+        <div
+          class="cell svelte-1d0j6iu"
+        >
+          <div
+            class="cellSize svelte-1d0j6iu"
+          />
+        </div>
+        <div
+          class="cell svelte-1d0j6iu"
+        >
+          <div
+            class="cellSize svelte-1d0j6iu"
+          />
+        </div>
+        <div
+          class="cell svelte-1d0j6iu"
+        >
+          <div
+            class="cellSize svelte-1d0j6iu"
+          />
+        </div>
+        <div
+          class="cell svelte-1d0j6iu"
+        >
+          <div
+            class="cellSize svelte-1d0j6iu"
+          />
+        </div>
+        
+      </div>
+    </div>
+  </body>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for SelectBox get a snapshot of component 1`] = `
+{
+  "component": SelectBox {
+    "$$": {
+      "after_update": [],
+      "before_update": [],
+      "bound": {},
+      "callbacks": {},
+      "context": Map {},
+      "ctx": [
+        0,
+        [
+          {
+            "text": "aaa",
+          },
+          {
+            "text": "bbb",
+          },
+          {
+            "text": "ccc",
+          },
+        ],
+        [Function],
+        false,
+        [Function],
+      ],
+      "dirty": [
+        -1,
+      ],
+      "fragment": {
+        "c": [Function],
+        "d": [Function],
+        "i": [Function],
+        "l": [Function],
+        "m": [Function],
+        "o": [Function],
+        "p": [Function],
+      },
+      "not_equal": [Function],
+      "on_destroy": [
+        [Function],
+      ],
+      "on_disconnect": [],
+      "on_mount": [],
+      "props": {
+        "disabled": 3,
+        "displayText": 2,
+        "index": 0,
+        "selectOptions": 1,
+      },
+      "root": <div>
+        <div
+          class="cobalt svelte-13v4w3y"
+        >
+          <select
+            class="svelte-13v4w3y"
+          >
+            <option
+              data-testid="selectdropdown"
+              value="1"
+            >
+              aaa
+            </option>
+            <option
+              data-testid="selectdropdown"
+              value="2"
+            >
+              bbb
+            </option>
+            <option
+              data-testid="selectdropdown"
+              value="3"
+            >
+              ccc
+            </option>
+          </select>
+        </div>
+      </div>,
+      "skip_bound": false,
+      "update": [Function],
+    },
+    "$$set": [Function],
+    "$capture_state": [Function],
+    "$inject_state": [Function],
+  },
+  "container": <body>
+    <div>
+      <div
+        class="cobalt svelte-13v4w3y"
+      >
+        <select
+          class="svelte-13v4w3y"
+        >
+          <option
+            data-testid="selectdropdown"
+            value="1"
+          >
+            aaa
+          </option>
+          <option
+            data-testid="selectdropdown"
+            value="2"
+          >
+            bbb
+          </option>
+          <option
+            data-testid="selectdropdown"
+            value="3"
+          >
+            ccc
+          </option>
+        </select>
+      </div>
+    </div>
+  </body>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
