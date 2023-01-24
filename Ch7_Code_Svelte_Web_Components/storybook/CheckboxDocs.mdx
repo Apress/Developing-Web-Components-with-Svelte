@@ -1,0 +1,48 @@
+import { ArgsTable, Canvas, Meta, Story } from '@storybook/addon-docs';
+import CheckBox from '../CheckBox/CheckBox.svelte';
+
+<Meta title="Basic Components/CheckBox" component={CheckBox} />
+
+# CheckBox
+
+Checkbox is the primary component. It has three possible states.
+
+- [Default](#default)
+- [No Label](#no-label)
+- [Disabled](#disabled)
+
+<a id="default" />
+
+## Default
+
+This is the default version of the checkbox component.
+
+<Canvas>
+  <Story id="cobalt-ui-library-basic-components-checkbox--default-story" />
+</Canvas>
+
+<a id="no-label" />
+
+## No Label
+
+This variant hides the label normally seen with the CheckBox component.
+
+<Canvas>
+  <Story id="cobalt-ui-library-basic-components-checkbox--no-label" />
+</Canvas>
+
+<a id="disabled" />
+
+## Disabled Input
+
+This variant disables the CheckBox.
+
+<Canvas>
+  <Story id="cobalt-ui-library-basic-components-checkbox--disabled" />
+</Canvas>
+
+## Properties of component
+
+Below is a list of arguments available for this component:
+
+<ArgsTable of={CheckBox} />

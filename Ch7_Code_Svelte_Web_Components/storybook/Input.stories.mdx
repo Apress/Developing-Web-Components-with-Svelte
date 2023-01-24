@@ -1,0 +1,72 @@
+import Input from "../Input/Input.svelte";
+import InputDocs from "./InputDocs.mdx";
+import { Meta, Story } from '@storybook/addon-docs';
+
+<Meta
+	title="Cobalt UI Library/Basic Components/Input"
+	component={Input}
+	parameters={{ page: null }}
+/>
+
+export const Template = (args) => ({
+  Component: Input,
+  props: args,
+});
+
+<Story
+	name="Default"
+	args={{
+		placeholder: "example text",
+		label: "Text:",
+	}}
+	parameters={{
+		docs: {
+			page: InputDocs,
+		},
+	}}
+/>
+
+<Story
+	name="Email"
+	args={{
+		placeholder: "email@example.com",
+		label: "Email:",
+		fieldType: "email",
+		onInput: () => alert("this is an email field"),
+	}}
+	parameters={{
+		docs: {
+			page: InputDocs,
+		},
+	}}
+/>
+
+<Story
+	name="No Label"
+	args={{
+		placeholder: "no label",
+		label: "",
+		fieldType: "text",
+		onInput: () => alert("this is an field with no label"),
+	}}
+	parameters={{
+		docs: {
+			page: InputDocs,
+		},
+	}}
+/>
+
+<Story
+	name="Disabled"
+	args={{
+		placeholder: "disabled field",
+		label: "Text",
+		fieldType: "text",
+		disabled: true,
+	}}
+	parameters={{
+		docs: {
+			page: InputDocs,
+		},
+	}}
+/>

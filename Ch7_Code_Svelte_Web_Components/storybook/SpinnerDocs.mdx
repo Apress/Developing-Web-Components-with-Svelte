@@ -1,0 +1,37 @@
+import { ArgsTable, Canvas, Meta, Story } from '@storybook/addon-docs';
+import Spinner from "../Spinner/Spinner.svelte";
+
+<Meta title="Cobalt UI Library/Action Components/Spinner" component={Spinner} />
+
+# Spinner
+
+Spinner is the primary component. It has two possible states.
+
+- [Default](#default)
+- [Jumper](#jumper)
+
+<a id="default" />
+
+## Default
+
+This is the default version of the Spinner component.
+
+<Canvas>
+  <Story id="cobalt-ui-library-action-components-spinner--default-story" />
+</Canvas>
+
+<a id="Jumper" />
+
+## Jumper
+
+This variant disables the Spinner component.
+
+<Canvas>
+  <Story id="cobalt-ui-library-action-components-spinner--jumper" />
+</Canvas>
+
+## Properties of component
+
+Below is a list of arguments available for this component:
+
+<ArgsTable of={Spinner} />

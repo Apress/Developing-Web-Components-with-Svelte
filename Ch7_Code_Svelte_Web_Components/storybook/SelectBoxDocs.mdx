@@ -1,0 +1,37 @@
+import { ArgsTable, Canvas, Meta, Story } from '@storybook/addon-docs';
+import SelectBox from "../SelectBox/SelectBox.svelte";
+
+<Meta title="Cobalt UI Library/Action Components/SelectBox" component={SelectBox} />
+
+# SelectBox
+
+SelectBox is the primary component. It has two possible states.
+
+- [Default](#default)
+- [Disabled](#disabled)
+
+<a id="default" />
+
+## Default
+
+This is the default version of the SelectBox component.
+
+<Canvas>
+  <Story id="cobalt-ui-library-action-components-selectbox--default-story" />
+</Canvas>
+
+<a id="disabled" />
+
+## Disabled
+
+This variant disables the SelectBox component.
+
+<Canvas>
+  <Story id="cobalt-ui-library-action-components-selectbox--disabled" />
+</Canvas>
+
+## Properties of component
+
+Below is a list of arguments available for this component:
+
+<ArgsTable of={SelectBox} />
