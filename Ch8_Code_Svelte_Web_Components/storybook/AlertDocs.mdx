@@ -1,0 +1,40 @@
+import { ArgsTable, Canvas, Meta, Story } from "@storybook/addon-docs";
+import Alert from "../Alert/Alert.svelte";
+
+<Meta
+  title="Cobalt UI Library/Notification Components/Alert"
+  component={Alert}
+/>
+
+# Alert
+
+Alert is the primary component. It has two possible states.
+
+- [Info](#info)
+- [Warning](#warning)
+
+<a id="info" />
+
+## Info
+
+This is the Info version of the Alert component.
+
+<Canvas>
+  <Story id="cobalt-ui-library-notification-components-alert--info" />
+</Canvas>
+
+<a id="warning" />
+
+## Warning
+
+This variant displays the Alert component styled as a warning.
+
+<Canvas>
+  <Story id="cobalt-ui-library-notification-components-alert--warning" />
+</Canvas>
+
+## Properties of component
+
+Below is a list of arguments available for this component:
+
+<ArgsTable of={Alert} />

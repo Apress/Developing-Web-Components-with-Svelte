@@ -1,0 +1,37 @@
+import { ArgsTable, Canvas, Meta, Story } from '@storybook/addon-docs';
+import Table from "../ImageGrid/Table.svelte";
+
+<Meta title="Cobalt UI Library/Navigation Components/Grid" component={Table} />
+
+# Grid
+
+Grid is the primary component. It has two possible states.
+
+- [Default](#default)
+- [Placeholder Images](#placeholder)
+
+<a id="default" />
+
+## Default
+
+This is the default version of the ImageGrid component.
+
+<Canvas>
+  <Story id="cobalt-ui-library-grid-components-image-grid--default-story" />
+</Canvas>
+
+<a id="placeholder" />
+
+## Placeholder Images
+
+This variant disables the ImageGrid component.
+
+<Canvas>
+  <Story id="cobalt-ui-library-grid-components-image-grid--placeholder-images" />
+</Canvas>
+
+## Properties of component
+
+Below is a list of arguments available for this component:
+
+<ArgsTable of={Table} />

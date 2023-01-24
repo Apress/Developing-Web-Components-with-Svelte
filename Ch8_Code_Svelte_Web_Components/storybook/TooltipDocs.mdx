@@ -1,0 +1,37 @@
+import { ArgsTable, Canvas, Meta, Story } from '@storybook/addon-docs';
+import Tooltip from "../Tooltip/Tooltip.svelte";
+
+<Meta title="Cobalt UI Library/Notification Components/Tooltip" component={Tooltip} />
+
+# Tooltip
+
+Tooltip is the primary component. It has two possible states.
+
+- [Default](#default)
+- [Custom HTML](#customhtml)
+
+<a id="default" />
+
+## Default
+
+This is the default version of the Tooltip component.
+
+<Canvas>
+  <Story id="cobalt-ui-library-notification-components-tooltip--default-story" />
+</Canvas>
+
+<a id="customhtml" />
+
+## Custom HTML
+
+This variant allows us to display HTML in the Tooltip component.
+
+<Canvas>
+  <Story id="cobalt-ui-library-notification-components-tooltip--show-html" />
+</Canvas>
+
+## Properties of component
+
+Below is a list of arguments available for this component:
+
+<ArgsTable of={Tooltip} />
