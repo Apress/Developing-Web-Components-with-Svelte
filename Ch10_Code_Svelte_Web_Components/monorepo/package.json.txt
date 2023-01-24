@@ -1,0 +1,21 @@
+{
+  "name": "@XXXXX/checkbox",
+  "version": "1.0.0-alpha1",
+  "description": "A simple checkbox component from the Cobalt library, for Svelte",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XXXXX/cobalt.git"
+  },
+  "keywords": [
+    "svelte",
+    "react",
+    "custom elements",
+    "web components"
+  ],
+  "author": "Alex Libby",
+  "license": "MIT"
+}
