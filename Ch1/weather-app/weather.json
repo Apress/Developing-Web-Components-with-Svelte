@@ -1,0 +1,42 @@
+{
+    "coord":{
+        "lon":-74.2599,
+        "lat":40.6971
+    },
+    "weather":[{
+        "id":803,
+        "main":"Clouds",
+        "description":"broken clouds",
+        "icon":"04d"
+    }],
+    "base":"stations",
+    "main":{
+        "temp":10.59,
+        "feels_like":8.67,
+        "temp_min":8.49,
+        "temp_max":12.32,
+        "pressure":1017,
+        "humidity":37
+    },
+    "visibility":10000,
+    "wind":{
+        "speed":5.66,
+        "deg":300,
+        "gust":7.72
+    },
+    "clouds":{
+        "all":75
+    },
+    "dt":1648923873,
+    "sys":{
+        "type":2,
+        "id":2037023,
+        "country":"US",
+        "sunrise":1648895928,
+        "sunset":1648941723
+    },
+    "timezone":-14400,
+    "id":5105608,
+    "name":"Union",
+    "cod":200
+}
