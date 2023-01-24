@@ -1,0 +1,5 @@
+[
+  { "href": "/", "text": "Dashboard" },
+  { "href": "/reports", "text": "Annual reports" },
+  { "href": "/reports/2019", "text": "2019" }
+]

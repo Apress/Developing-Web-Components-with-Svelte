@@ -1,0 +1,49 @@
+import Tabs from "../Tabs/Tabs.svelte";
+import TabsDocs from "./TabsDocs.mdx";
+import { Meta, Story } from '@storybook/addon-docs';
+
+<Meta
+  title="Cobalt UI Library/Navigation Components/Tabs"
+  component={Tabs}
+  parameters={{ page: null }}
+/>
+
+export const Template = (args) => ({
+  Component: Tabs,
+  props: args,
+});
+
+<Story
+  name="Default"
+  args={{
+    vertical: false,
+    items: [
+      { "id": 1, "name": "Tab 1", "text": "This is a test"},
+      { "id": 2, "name": "Tab 2", "text": "Here is tab 2"},
+      { "id": 3, "name": "Tab 3", "text": "And this is tab 3"},
+    ],
+  }}
+  
+  parameters={{
+    docs: {
+      page: TabsDocs,
+    },
+  }}
+/>
+
+<Story
+  name="Vertical"
+  args={{
+    vertical: true,
+    items: [
+      { "id": 1, "name": "Tab 1", "text": "This is a test"},
+      { "id": 2, "name": "Tab 2", "text": "Here is tab 2"},
+      { "id": 3, "name": "Tab 3", "text": "And this is tab 3"},
+    ],
+  }}
+  parameters={{
+    docs: {
+      page: TabsDocs,
+    },
+  }}
+/>
