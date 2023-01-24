@@ -1,0 +1,44 @@
+import SelectBox from "../SelectBox/SelectBox.svelte";
+import SelectBoxDocs from "./SelectBoxDocs.mdx";
+import { Meta, Story } from '@storybook/addon-docs';
+
+<Meta 
+  title = "Cobalt UI Library/Action Components/SelectBox" 
+  component={SelectBox}
+  parameters={{ page: null }}
+/>
+
+export const Template = (args) => ({
+  Component: SelectBox,
+  props: args,
+});
+
+<Story name="Default" 
+  args={{ 
+    options: [{"text":"aaa"},{"text":"bbb"},{"text":"ccc"}]
+  }}
+  parameters={{
+    docs: {
+      page: SelectBoxDocs
+    },
+  }}
+/>
+
+<Story name="Disabled" 
+  args={{ 
+    options: [{"text":"aaa"},{"text":"bbb"},{"text":"ccc"}],
+    disabled: true
+  }}
+  parameters={{
+    docs: {
+      page: SelectBoxDocs
+    },
+  }}
+/>
+
+
+
+
+
+
+

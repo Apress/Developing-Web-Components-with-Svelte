@@ -1,0 +1,39 @@
+import Accordion from "../Accordion/Accordion.svelte";
+import AccordionDocs from "./AccordionDocs.mdx";
+import { Meta, Story } from '@storybook/addon-docs';
+
+<Meta 
+  title="Cobalt UI Library/Action Components/Accordion"
+  component={Accordion}
+  parameters={{page: null}}
+/>
+
+export const Template = (args) => ({
+  Component: Accordion,
+  props: args,
+});
+
+<Story name="Default" 
+  args={{ 
+    isOpen: false,
+    data: [
+      { 
+        "title": "Heading 1", 
+        "text": "aorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada, nulla sed lacinia accumsan, ligula arcu interdum urna, eget rhoncus sapien orci scelerisque metus." 
+      },
+      { 
+        "title": "Heading 2", 
+        "text": "In bibendum commodo orci nec semper. Nam magna mauris, ornare eu semper sit amet, vehicula sed metus" 
+      },
+      { 
+        "title": "Heading 3", 
+        "text": "Mauris tortor mi, scelerisque nec metus nec, finibus euismod lacus. Maecenas non porttitor arcu" 
+      }
+    ]
+  }}
+  parameters={{
+    docs: {
+      page: AccordionDocs
+    },
+	}}
+/>

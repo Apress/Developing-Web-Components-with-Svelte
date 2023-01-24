@@ -1,0 +1,44 @@
+import Spinner from "../Spinner/Spinner.svelte";
+import SpinnerDocs from "./SpinnerDocs.mdx";
+import { Meta, Story } from '@storybook/addon-docs';
+
+<Meta
+  title="Cobalt UI Library/Action Components/Spinner"
+  component={Spinner}
+  parameters={{ page: null }}
+/>
+
+export const Template = (args) => ({
+  Component: Spinner,
+  props: args,
+});
+
+<Story
+  name="Default"
+  args={{
+    color: "#19247c",
+    duration: "0.75s",
+    size: "40",
+    variant: "circle",
+  }}
+  parameters={{
+    docs: {
+      page: SpinnerDocs,
+    },
+  }}
+/>
+
+<Story
+  name="Jumper"
+  args={{
+    color: "#19247c",
+    duration: "1s",
+    size: "60",
+    variant: "jumper",
+  }}
+  parameters={{
+    docs: {
+      page: SpinnerDocs,
+    },
+  }}
+/>
